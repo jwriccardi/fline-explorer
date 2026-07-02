@@ -20,6 +20,10 @@ class MainActivity : AppCompatActivity() {
         web.setBackgroundColor(0xFF050507.toInt())   // night black — no white flash on launch
         web.settings.javaScriptEnabled = true
         web.settings.domStorageEnabled = true        // localStorage
+        web.settings.allowFileAccess = true
+        web.settings.allowContentAccess = true
+        web.settings.allowFileAccessFromFileURLs = true
+        web.settings.allowUniversalAccessFromFileURLs = true
         web.webViewClient = WebViewClient()          // keep navigation inside the WebView
         setContentView(web)
 

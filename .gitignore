@@ -1,0 +1,10 @@
+.idea/
+.gradle/
+build/
+*.apk
+gradle-8.7/
+node_modules/
+.DS_Store
+android/.gradle/
+android/app/build/
+android/local.properties
